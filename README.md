@@ -17,7 +17,7 @@ sudo systemctl status docker
 sudo usermod -aG docker ${USER}
 ```
 
-You should copy **all** the Jupyter notebooks in this repository in a local directory and then issue:
+You should copy **all** the Jupyter notebooks and data files [here](https://github.com/jp-uom/ARI5902_Research_Topics_In_Artificial_Intelligence/tree/master/jupyter) in this repository in a local directory and then issue:
 
 ```
 docker run -ti --rm -v /your/local/dir/ARI5902_Research_Topics_In_Artificial_Intelligence/docker/jupyter:/notebooks -p 8888:8888 jpebe/ari5902
