@@ -1,6 +1,8 @@
 # ARI5902 Research Topics In Artificial Intelligence
 
-This should be as easy as issuing:
+During this workshop I will show you how to build machine learning models for Computational Drug Discovery.
+
+You will need a ton of software (configuration, etc.), which I have conveniently installed and set-up for you and placed in a docker container (you're spoilt these days!).  This should be as easy as issuing:
 
 ```
 docker pull jpebe/ari5902
