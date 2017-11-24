@@ -19,7 +19,7 @@ sudo systemctl status docker
 sudo usermod -aG docker ${USER}
 ```
 
-You should copy **all** the Jupyter notebooks and data files [here](https://github.com/jp-uom/ARI5902_Research_Topics_In_Artificial_Intelligence/tree/master/jupyter) in this repository in a local directory and then issue:
+You should copy **all** the Jupyter notebooks and data files [here](https://github.com/jp-uom/ARI5902_Research_Topics_In_Artificial_Intelligence/tree/master/jupyter) in a local directory and then issue:
 
 ```
 docker run -ti --rm -v /your/local/dir/ARI5902_Research_Topics_In_Artificial_Intelligence/docker/jupyter:/notebooks -p 8888:8888 jpebe/ari5902
@@ -27,7 +27,7 @@ docker run -ti --rm -v /your/local/dir/ARI5902_Research_Topics_In_Artificial_Int
 
 You should then be able to copy the Jupyter notebook URL from the terminal into your browser (ctrl-click will open a browser automatically).
 
-The more docker experienced people, can probably build the docker image from the docker file in this repository (```docker build -t ari5901 .```).
+The more docker-experienced people, can probably build the docker image from the docker file in this repository (```docker build -t ari5901 .```).
 
 Pull requests (with fixes) will be recieved with thanks.
 
