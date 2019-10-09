@@ -13,6 +13,7 @@ sudo apt-get update
 sudo apt-get install -y docker-ce
 sudo systemctl status docker
 sudo usermod -aG docker ${USER}
+sudo docker run hello-world
 ```
 
 ### Getting the Container Image
