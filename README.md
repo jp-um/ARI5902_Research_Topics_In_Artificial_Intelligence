@@ -4,9 +4,11 @@ During this workshop I will show you how to build machine learning models for Co
 
 The first thing you will need to do is clone this repository, i.e. ```git clone git@github.com:jp-um/ARI5902_Research_Topics_In_Artificial_Intelligence.git```
 
+Note that this session assumes you have access to a Linux installation (ideally Ubuntu 18.04.3 LTS).  You can use Oracle VirtualBox to create an Ubuntu Virtual Machine on your Windows/macOS (or you can dual boot, or even better, remove your OS and install Ubuntu directly on the bare metal).
+
 ## Pre-requisite (Docker)
 
-For my session you will need ```docker``` installed (on Ubuntu).  Docker is a clever bit of software which allows me to package all the libraries (and setup) you need all in one place.  Docker can easily be installed as follows (on Ubuntu 16.04.3 LTS):
+For my session you will need ```docker``` installed (on Ubuntu).  Docker is a clever bit of software which allows me to package all the libraries (and setup) you need all in one place.  Docker can easily be installed as follows:
 
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
