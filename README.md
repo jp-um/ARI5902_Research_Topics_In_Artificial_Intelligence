@@ -38,7 +38,7 @@ You should then be able to copy the Jupyter notebook URL from the terminal into 
 
 ## Building the Image from Scratch
 
-The more docker-experienced people, can probably build the docker image from the docker file in this repository (```docker build -t ari5901 .```).
+The more docker-experienced people, can probably build the docker image from the docker file in this repository (```docker build -t ari5902 .```).
 
 Pull requests (with fixes) will be recieved with thanks.
 
