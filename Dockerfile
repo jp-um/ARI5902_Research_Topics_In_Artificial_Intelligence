@@ -1,7 +1,7 @@
 FROM continuumio/miniconda3
 LABEL maintainer="JP <jean.p.ebejer@um.edu.mt>"
-LABEL version="2018/9"
-LABEL copyright="(C)2017-2019"
+LABEL version="2019/20"
+LABEL copyright="(C)2017-2020"
 
 # Add Tini
 ENV TINI_VERSION v0.18.0
