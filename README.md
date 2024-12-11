@@ -20,7 +20,7 @@ docker pull jpebe/ari5902
 
 ## Running the Container
 
-You should copy **all** the Jupyter notebooks and data files [here](https://github.com/jp-uom/ARI5902_Research_Topics_In_Artificial_Intelligence/tree/master/jupyter) in a local directory and then issue:
+You should copy **all** the Jupyter notebooks and data files [here](https://github.com/jp-um/ARI5902_Research_Topics_In_Artificial_Intelligence/tree/main/jupyter) in a local directory and then issue:
 
 ```
 docker run -ti --rm -v /your/local/dir/ARI5902_Research_Topics_In_Artificial_Intelligence/jupyter:/notebooks -p 8888:8888 jpebe/ari5902
