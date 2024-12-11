@@ -32,6 +32,16 @@ You should then be able to copy the Jupyter notebook URL from the terminal into 
 
 The more docker-experienced people, can probably build the docker image from the docker file in this repository (```docker build -t ari5902 .```).
 
+## When you are done
+
+You may want to reclaim some space on your Ubuntu installation.  Remove all images and containers in the following way.
+
+```bash
+docker rm -f $(docker ps -a -q)
+docker rmi -f $(docker images -a -q)
+```
+
+
 Pull requests (with fixes) will be recieved with thanks.
 
 ![](https://github.com/drmenguin/learnd/blob/master/jp.gif)
