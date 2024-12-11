@@ -8,17 +8,7 @@ Note that this session assumes you have access to a Linux installation (ideally 
 
 ## Pre-requisite (Docker)
 
-For my session you will need ```docker``` installed (on Ubuntu).  Docker is a clever bit of software which allows me to package all the libraries (and setup) you need all in one place.  Docker can easily be installed as follows:
-
-```
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-sudo apt-get update
-sudo apt-get install -y docker-ce
-sudo systemctl status docker
-sudo usermod -aG docker ${USER}
-sudo docker run hello-world
-```
+For my session you will need ```docker``` installed (on Ubuntu).  Docker is a clever bit of software which allows me to package all the libraries (and setup) you need all in one place.  Docker can easily be installed (on Ubuntu, but also on other platforms) by following the [official Docker guides](https://docs.docker.com/engine/install/ubuntu/).
 
 ### Getting the Container Image
 
