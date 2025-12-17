@@ -11,3 +11,5 @@ RUN mamba install --yes -c conda-forge \
     'py3dmol' && \
     # Clean up the cache to keep the final image smaller
     mamba clean --all -f -y
+    
+CMD ["start-notebook.sh", "--ServerApp.root_dir=/home/jovyan/work"]
